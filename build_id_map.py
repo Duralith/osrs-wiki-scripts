@@ -1,3 +1,15 @@
+"""build_id_map.py
+by Duralith, 2023.
+
+Quick script pieced together to build a mapping of ID -> name for items, objects, and
+NPCs in game cache. Requires a cache dump such as those from Abex's tool Flatcache
+(https://github.com/abextm/osrs-flatcache).
+
+Using this script:
+Just edit the cache_name and cache_path variables below with values appropriate for
+where you have your cache dump and fire away.
+"""
+
 import os
 import json
 
