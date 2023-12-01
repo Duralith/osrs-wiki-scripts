@@ -37,7 +37,7 @@ def download(url, filename):
 
 base_url = 'https://chisel.weirdgloop.org/static/img/'
 
-with open(input_file_name, 'r') as infile:
+with open(input_file_name, 'r', encoding='utf-8-sig') as infile:
     df = pd.read_csv(infile)
 
 if not os.path.exists(file_path):
